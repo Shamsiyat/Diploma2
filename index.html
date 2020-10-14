@@ -11,7 +11,7 @@
   <header class="header">
     <div class="wrapper">
       <div class="header__wrapper flex">
-        <a href="/" class="logo"><img src="images/logo.png" alt="Kinder loft"></a>
+        <a href="/" class="logo"><img class="logo__img" src="images/logo.png" alt="Kinder loft"></a>
         <div class="header-content">
           <div class="header-top flex">
             <span class="header-top__item header-top__item--time">Пн-Вс: 8:00 - 19:00</span>
@@ -23,11 +23,11 @@
           <div class="header-bottom">
             <a href="#form" class="mobile-link-to-form"></a>
             <ul class="menu flex">
-              <li class="menu__item"><a href="#about">О саде</a></li>
-              <li class="menu__item"><a href="#gallery">Фотогалерея</a></li>
-              <li class="menu__item"><a href="#reviews">Отзывы родителей</a></li>
-              <li class="menu__item"><a href="tel:88007756047">8 (800) 775-60-47</a></li>
-              <li class="menu__item menu__item--instagram"><a href="https://www.instagram.com" target="_blank"></a></li>
+              <li class="menu__item"><a class="menu__item_link" href="#about">О саде</a></li>
+              <li class="menu__item"><a class="menu__item_link" href="#gallery">Фотогалерея</a></li>
+              <li class="menu__item"><a class="menu__item_link" href="#reviews">Отзывы родителей</a></li>
+              <li class="menu__item"><a class="menu__item_link" href="tel:88007756047">8 (800) 775-60-47</a></li>
+              <li class="menu__item"><a class="menu__item_link--instagram" href="https://www.instagram.com" target="_blank"></a></li>
             </ul>
           </div>
         </div>
@@ -35,143 +35,142 @@
     </div>
   </header>
 
-  <section class="banner">
-    <div class="wrapper">
-      <div class="banner__wrapper flex">
-        <img src="images/fox.png" alt="" class="banner__img--mobile">
-        <p class="banner__text">Развивающее пространство нашего сада и чуткое отношение воспитателей — это то, что нужно для развития лидерских качеств и творческого начала. Наш сад создан для того, чтобы ваши дети выросли здоровыми, счастливыми и успешными.</p>
-        <img src="images/giraffe.png" alt="Жираф" class="banner__img">
-      </div>
-    </div>
-  </section>
+  <main>
 
-  <section class="preim" id="about">
-    <div class="wrapper">
-      <h2 class="section__title">Преимущества</h2>
-      <div class="preim__list">
-        <div class="preim__item">
-          <img src="images/best.png" alt="Лучшие воспитатели">
-          <h3 class="preim__title">Лучшие воспитатели</h3>
-          <p class="preim__text">Обязательные требования к кандидатам: высшее педагогическое образование, опыт работы, способность найти подход к ребёнку. Все воспитатели проходят регулярные тренинги и обучение.</p>
-        </div>
-
-        <div class="preim__item">
-          <img src="images/video.png" alt="Видеонаблюдение">
-          <h3 class="preim__title">Видеонаблюдение</h3>
-          <p class="preim__text">Все наши сады оборудованы системами видеонаблюдения. В любой момент через приложение для смартфона вы можете посмотреть, чем занимается Ваш ребёнок, что особенно важно в период адаптации.</p>
-        </div>
-
-        <div class="preim__item">
-          <img src="images/food.png" alt="Здоровое питание">
-          <h3 class="preim__title">Здоровое питание</h3>
-          <p class="preim__text">Пятиразовое питание: два завтрака, обед, полдник и ужин. Учитываются индивидуальные особенности ребёнка: аллергия, непереносимость продуктов. Меню разработано с учётом действующих СанПиН и сборников рецептур, рекомендованных для питания детей в детских садах.</p>
-        </div>
-
-        <div class="preim__item">
-          <img src="images/book.png" alt="Развивающая программа">
-          <h3 class="preim__title">Развивающая программа</h3>
-          <p class="preim__text">Наш сад специализируется на проведении занятий, предназначенных для творческого развития Ваших детей, эстетического вкуса и познавательной сферы. Наши малыши не устают и не теряют интерес к предлагаемым заданиям, благодаря игровой форме, в которой проводятся занятия. </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="wie" id="gallery">
-    <div class="wrapper">
-      <h2 class="section__title">Как выглядит детский сад</h2>
-      <div class="slider">
-        <div class="slider-arrow slider-prev"></div>
-        <div class="slide">
-          <div class="slide__container"><img src="images/slide.jpg" alt=""></div>
-        </div>
-        <div class="slider-arrow slider-next"></div>
-        <div class="slider-dots">
-          <button></button>
-          <button></button>
-          <button></button>
-          <button></button>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="reviews" id="reviews">
-    <h2 class="section__title">Отзывы родителей</h2>
-    <div class="reviews__block">
+    <section class="banner">
       <div class="wrapper">
-        <div class="reviews__slider">
-          <div class="slider-arrow slider-prev"></div>
-          <div class="review">
-            <div class="review__container">
-              <div class="review__author">
-                <div class="review__author_img"><img src="images/review.png" alt="Author"></div>
-                <strong class="review__author_name">Амина, <br> 
-                  мама Марьям</strong>
-              </div>
+        <div class="banner__wrapper flex">
+          <img src="images/fox.png" alt="" class="banner__img--mobile">
+          <p class="banner__text">Развивающее пространство нашего сада и чуткое отношение воспитателей — это то, что нужно для развития лидерских качеств и творческого начала. Наш сад создан для того, чтобы ваши дети выросли здоровыми, счастливыми и успешными.</p>
+        </div>
+      </div>
+    </section>
 
-              <div class="review__text">
-                Посещаем садик с момента открытия, прошло всего 3 месяца, но ребенок счастлив, она быстро освоилась, бежит каждый день с удовольствием, и на выходных тоже собира- ется)) Чистота, прекрасная и полезная еда, эко-игрушки, интересная программа для детей, все очень достойно! Очень удобно, что в любой момент можно посмотреть чем занимается ребенок.
-              </div>
-            </div>
+    <section class="preim" id="about">
+      <div class="wrapper">
+        <h2 class="section__title">Преимущества</h2>
+        <div class="preim__list">
+          <div class="preim__item preim__item1">
+            <h3 class="preim__title">Лучшие воспитатели</h3>
+            <p class="preim__text">Обязательные требования к кандидатам: высшее педагогическое образование, опыт работы, способность найти подход к ребёнку. Все воспитатели проходят регулярные тренинги и обучение.</p>
           </div>
 
-          
+          <div class="preim__item preim__item2">
+            <h3 class="preim__title">Видеонаблюдение</h3>
+            <p class="preim__text">Все наши сады оборудованы системами видеонаблюдения. В любой момент через приложение для смартфона вы можете посмотреть, чем занимается Ваш ребёнок, что особенно важно в период адаптации.</p>
+          </div>
+
+          <div class="preim__item preim__item3">
+            <h3 class="preim__title">Здоровое питание</h3>
+            <p class="preim__text">Пятиразовое питание: два завтрака, обед, полдник и ужин. Учитываются индивидуальные особенности ребёнка: аллергия, непереносимость продуктов. Меню разработано с учётом действующих СанПиН и сборников рецептур, рекомендованных для питания детей в детских садах.</p>
+          </div>
+
+          <div class="preim__item preim__item4">
+            <h3 class="preim__title">Развивающая программа</h3>
+            <p class="preim__text">Наш сад специализируется на проведении занятий, предназначенных для творческого развития Ваших детей, эстетического вкуса и познавательной сферы. Наши малыши не устают и не теряют интерес к предлагаемым заданиям, благодаря игровой форме, в которой проводятся занятия. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="wie" id="gallery">
+      <div class="wrapper">
+        <h2 class="section__title">Как выглядит детский сад</h2>
+        <div class="slider">
+          <div class="slider-arrow slider-prev"></div>
+          <div class="slide">
+            <div class="slide__container"><img class="slide__img" src="images/slide.jpg" alt=""></div>
+          </div>
           <div class="slider-arrow slider-next"></div>
           <div class="slider-dots">
-            <button></button>
-            <button></button>
-            <button></button>
-            <button></button>
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
+            <button class="button"></button>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <section class="form" id="form">
-    <div class="wrapper">
-      <h2 class="section__title form__title">У вас еще остались интересующие вопросы? <br>
-        Заполните форму обратной связи и мы ответим Вам в ближайшее время!</h2>
-      <form action="" class="form__block">
-        <img src="images/giraffe-form.png" alt="" class="form__img">
-        <input type="text" name="Name" class="input" placeholder="ФИО">
-        <input type="email" name="Email" class="input" placeholder="E-mail">
-        <input type="tel" name="Phone" class="input" placeholder="Телефон">
-        <textarea name="Message" class="input textarea" placeholder="Вопрос"></textarea>
-        <fieldset>
-          <legend>Предпочтительная форма обратной связи:</legend>
-          <label class="radio">
-            <input type="radio" name="Type">
-            <span class="radio__custom"></span>
-            <span class="radio__text">e-mail</span>
-          </label>
-          <label class="radio">
-            <input type="radio" name="Type">
-            <span class="radio__custom"></span>
-            <span class="radio__text">телефон</span>
-          </label>
-        </fieldset>
-        <input type="submit" value="Отправить" class="submit">
-      </form>
-    </div>
-  </section>
+    <section class="reviews" id="reviews">
+      <h2 class="section__title">Отзывы родителей</h2>
+      <div class="reviews__block">
+        <div class="wrapper">
+          <div class="reviews__slider">
+            <div class="slider-arrow slider-prev"></div>
+            <div class="review">
+              <div class="review__container">
+                <div class="review__author">
+                  <div class="review__author_img"><img class="review__author--img" src="images/review.png" alt="Author"></div>
+                  <span class="review__author_name">Амина, <br> 
+                    мама Марьям</span>
+                </div>
+
+                <div class="review__text">
+                  Посещаем садик с момента открытия, прошло всего 3 месяца, но ребенок счастлив, она быстро освоилась, бежит каждый день с удовольствием, и на выходных тоже собира- ется)) Чистота, прекрасная и полезная еда, эко-игрушки, интересная программа для детей, все очень достойно! Очень удобно, что в любой момент можно посмотреть чем занимается ребенок.
+                </div>
+              </div>
+            </div>
+
+            
+            <div class="slider-arrow slider-next"></div>
+            <div class="slider-dots">
+              <button class="button"></button>
+              <button class="button"></button>
+              <button class="button"></button>
+              <button class="button"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="form" id="form">
+      <div class="wrapper">
+        <h2 class="section__title form__title">У вас еще остались интересующие вопросы?
+          Заполните форму обратной связи и мы ответим Вам в ближайшее время!</h2>
+        <form action="" class="form__block">
+          <img src="images/giraffe-form.png" alt="" class="form__img">
+          <input type="text" aria-label="ФИО" name="Name" class="input" placeholder="ФИО">
+          <input type="email" aria-label="E-mail" name="Email" class="input" placeholder="E-mail">
+          <input type="tel" aria-label="Телефон" name="Phone" class="input" placeholder="Телефон">
+          <textarea name="Message" aria-label="Вопрос" class="input textarea" placeholder="Вопрос"></textarea>
+          <fieldset class="fieldset">
+            <legend class="legend">Предпочтительная форма обратной связи:</legend>
+            <label class="radio" aria-label="связаться по E-mail">
+              <input type="radio" name="Type" class="radio__input">
+              <span class="radio__custom"></span>
+              <span class="radio__text">e-mail</span>
+            </label>
+            <label class="radio"aria-label="Связаться по телефону">
+              <input type="radio" name="Type" class="radio__input">
+              <span class="radio__custom"></span>
+              <span class="radio__text">телефон</span>
+            </label>
+          </fieldset>
+          <input type="submit" aria-label="Отправить" value="Отправить" class="submit">
+        </form>
+      </div>
+    </section>
+      
+  </main>
 
   <footer class="footer">
     <div class="wrapper">
       <div class="footer__wrapper">
         <div class="footer__block">
-          <strong class="footer__text">Контакты</strong> <br>
+          <span class="footer__text">Контакты</span>
           <a href="tel:+79896617333" class="footer__text footer__phone">+7 989 661-73-33</a> <br>
           <a href="mailto:kinderloft@yandex.ru" class="footer__text footer__mail">kinderloft@yandex.ru</a>
         </div>
 
         <div class="footer__block">
-          <strong class="footer__text">Адрес:</strong> <br>
+          <span class="footer__text">Адрес:</span>
           <span class="footer__text footer__address">Ул. Коркмасова, 39</span>
         </div>
 
         <div class="footer__block">
-          <strong class="footer__text">Наш инстаграм</strong> <br>
+          <span class="footer__text">Наш инстаграм</span>
           <a href="https://www.instagram.com" target="_blank" class="footer__text">@kinder_loft</a>
         </div>
       </div>
